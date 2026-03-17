@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Exhibición y vitrinismo en el formato comercial'
