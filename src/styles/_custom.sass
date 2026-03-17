@@ -29,6 +29,32 @@
   color: $color-primario
 figcaption
   font-weight: normal
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.jpg") !important
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-movil.jpg') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 14% !important 
+    h1, p
+      color: $white
+
+.banner-principal  
+  @media (min-width: 768px) and (max-width: 1024px)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal-tablet.jpg') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+    h1, p
+      color: $white
 
 .titulo-segundo:after 
     content: ''
@@ -36,10 +62,24 @@ figcaption
     height: 4.5px
     width: 140px
     border-left: solid 50px
-    border-left-color: #FF725D
+    border-left-color: #53BCED
     background-color: #e8e8e8
+.titulo-principal.color-secundario .titulo-principal__numero 
+    background-color: #FE8938
+.cajon.color-primario 
+  background-color: #E8EBF3
+.cajon.color-acento-contenido
+  background-color: #FFF3EA
 
+.icon 
+  max-width: 65px
+  left: 35px
+  position: absolute
 
+.bg-img-blue
+  padding: 14px
+  background-color: #1E3A8A
+  border-radius: 0px 0px 50px 0px  
 .tarjetaf
   background-color: #fff
   border-radius: 15px
@@ -74,14 +114,13 @@ figcaption
   text-align: left
 
 .acordion__accion__btn--a
-  background-color: #FFDC39
+  background-color: #38CE65
   box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
 .acordion .tarjeta--azul
-  background-color: #FF725D
+  background-color: #FE8938
 
 .acordion .tarjeta.tarjeta--azul.acordion__activo
-  background-color: #FFE3DE
-
+  background-color: #FFF3EA
 .fa-plus:before 
     content: "\f067"
     color: #0D66BF
@@ -108,15 +147,40 @@ figcaption
   border-radius: 10px
 
 .tabs-a.color-primario .tabs-a__tab__selected 
-    background-color: #FFDC39 !important
+    background-color: #38CE65 !important
     color: #12263F
 
 .tabs-a.color-primario .tabs-a__tab__selected:before 
-    background-color: #FFDC39 !important
+    background-color: #38CE65 !important
 
 .tabs-a__tab:last-child 
     margin-bottom: 0 !important
-    background-color: #FF725D!important
+    background-color: #FE8938 !important
+
+.bg011 
+  background-color: #E8EBF3
+  border-radius: 20px
+.bg02
+  background-color: #1E3A8A
+.bg01
+  background-color:  #FFF3EA !important
+.bg03
+  background-color: #E8EBF3
+.bg04
+  background-color: #EDF8FD
+.bg05
+  background-color: #EDF8FD
+.bg06
+  background-color: #53BCED
+
+.cajon.color-secundario 
+  background-color: #EDF8FD !important
+.fa-check-circle, .fa-circle-check 
+  --fa: "\f058"
+  color: #FE8938 !important
+
+
+
 
 .color-primario.bd
   background-color: #D4EEFB
@@ -186,7 +250,7 @@ figcaption
 
 
 .lista-ol--cuadro__vineta 
-    background-color: #FFDC39
+    background-color: #38CE65
     color: black
 
 .bg6
@@ -219,11 +283,11 @@ figcaption
 .crd_hover_txt:hover .crd_hover_txt--body
   transition: all .5s ease-in-out
   transform: translateY(0)
-  background-color: #0D66BF !important
+  background-color: #BAE4F8 !important
 .crd_hover_txt:hover .crd_hover_txt--body *
-  color: #fff !important
+  color: #12263F !important
 .colt
-  background-color: #FF725D
+  background-color: #FE8938
 
 
 .sub
@@ -256,18 +320,18 @@ figcaption
   
 
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
-    background-color: #FFF6CD
-
+    background-color: #EAFAEF
+    color: #12263F !important
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
-    background-color: #FFF6CD
+    background-color: #38CE65
 
 
 .linea-tiempo-d .tarjeta 
     border-radius: 5px
 
 .tarjeta--gris 
-    background-color: #FFDC39
-
+  background-color: #1E3A8A
+  color: #ffff !important
 
 @media (max-width: 768px) 
     .slyder-a__bullets__item 

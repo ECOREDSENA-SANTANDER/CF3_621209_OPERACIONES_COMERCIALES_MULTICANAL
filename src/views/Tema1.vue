@@ -31,7 +31,7 @@
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/5.png')})`}"
           )
@@ -52,7 +52,7 @@
 
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-10
-        PasosA.color-secundario.mb-5(tipo="n")
+        PasosA.color-acento-contenido.mb-5(tipo="n")
           .row.align-items-center
             .col-lg
               h4 Un espacio físico
@@ -63,7 +63,7 @@
           .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
-                img.d-none.d-lg-block(src='@/assets/curso/tema1/7.svg', alt='')
+                img.d-none.d-lg-block(src='@/assets/curso/tema1/7.png', alt='')
             .col-lg
               h4.text-left Productos
               p.text-left Son todos los bienes y servicios que se ofrecen en el espacio físico. Si el establecimiento es una relojería, los productos son relojes; si es una empresa de telecomunicaciones, un servicio podría ser la conexión a internet.
@@ -93,7 +93,7 @@
         img.img-a.img-t(src='@/assets/curso/tema1/10.svg', alt='tema1')
       .col-lg-8.col-md-12.col-12.mb-4
         p.mb-4 En Colombia existe una tendencia que ha gustado en los clientes; se trata de preferir nuevos formatos y canales comerciales de venta directa e independiente con precios económicos en distintos productos. Así, se obtiene un gran beneficio a través de productos que se consideran de buena calidad, presentación, que están distribuidos en espacios limpios y atendidos por un personal capacitado y joven. 
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-primario.p-4
           p.mb-4 #[b D1, Ara y Justo & Bueno] son ejemplos de lo anterior. Presentan un comportamiento dinámico e innovador, con una excelente aceptación por parte de la sociedad. Estos establecimientos pertenecen al sector del descuento duro #[em #[b (hard discount)]] y se caracterizan por ofrecer precios económicos, especialmente en productos de la canasta familiar, en comparación con los establecimientos tradicionales. Esta estrategia ha llevado a que muchos clientes los prefieran a la hora de hacer sus compras.
           p.mb-0 Sus tiendas son sencillas, no realizan inversiones en publicidad, cuentan con pocos empleados, no tienen impulsadores y ofrecen productos de pequeños y medianos proveedores que, con precios económicos, intentan mantenerse en el mercado.
 
@@ -196,7 +196,7 @@
     .row.mb-4
       .col-lg-12.mb-4.mb-lg-0(data-aos="fade-right")
         TabsA.color-primario
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="La identidad")
+          .tarjeta.color-acento-botones.bg01.p-4(titulo="La identidad")
             .row.justify-content-center
               .col-lg-4.col-md-10.col-10
                 img.img-a.img-t(src='@/assets/curso/tema1/20.png', alt='').mb-3
@@ -204,7 +204,7 @@
                 h4.mb-4 La identidad
                 p.mb-0 Está relacionado con el rótulo comercial, que incluye el nombre, distintivo visual, colores, fuentes y diseño de la fachada. Este conjunto forma el rótulo corporativo, cuyo objetivo es la identificación del establecimiento.
             
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="La puerta de entrada")
+          .tarjeta.color-acento-botones.bg01.p-4(titulo="La puerta de entrada")
             .row.justify-content-center
               .col-lg-4.col-md-10.col-10
                 img.img-a.img-t(src='@/assets/curso/tema1/21.png', alt='').mb-3
@@ -212,7 +212,7 @@
                 h4.mb-4 La puerta de entrada
                 p.mb-0 La puerta de entrada debe reflejar fielmente la identidad y el concepto empresarial del establecimiento comercial. Es crucial que su diseño sea apropiado para facilitar el acceso al local y atraer a los transeúntes a ingresar.
           
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="El escaparate")
+          .tarjeta.color-acento-botones.bg01.p-4(titulo="El escaparate")
             .row.justify-content-center
               .col-lg-4.col-md-10.col-10
                 img.img-a.img-t(src='@/assets/curso/tema1/22.png', alt='').mb-3
@@ -221,7 +221,7 @@
                 p.mb-4 Es la vidriera comercial, es el más importante vehículo de comunicación entre el establecimiento y el cliente. Debe sintetizar y reflejar el estilo de la tienda, su identidad, lo que es y lo que ofrece.
                 p.mb-0 Se le considera como un excelente vendedor y tiene un carácter particularmente persuasivo y dominante sobre el cliente, siempre y cuando su diseño haga su función de impactar y llamar la atención. Permanece activo las veinticuatro horas del día, pero como desventaja su mensaje se capta por parte de los transeúntes en solo unos breves segundos. Por ello, la importancia de ser impactante para llamar la atención.
           
-          .tarjeta.color-acento-botones.bg7.p-4(titulo="Fachada")
+          .tarjeta.color-acento-botones.bg01.p-4(titulo="Fachada")
             .row.justify-content-center
               .col-lg-4.col-md-10.col-10
                 img.img-a.img-t(src='@/assets/curso/tema1/23.png', alt='').mb-3
@@ -244,7 +244,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12.col-md-12.col-12
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.bg02.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/34.png')})`}"
           )
@@ -265,20 +265,21 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       .col-lg-8.col-md-12.col-12    
         .tarjeta--container.row.mb-4
-          .col-md.tarjeta.color-primario.bd.p-4
+          .col-md.tarjeta.bg03.p-4
             .row.justify-content-center.mb-4
               h4.mb-4.text-center Zona fría
               .col-6
                 figure
                   img.img-a.img-t(src='@/assets/curso/tema1/25.svg', alt='Texto que describa la imagen')
             p.text-center Área de circulación por donde el cliente transita muy poco. Su técnica consiste en ubicar productos de mayor rotación y promociones de venta con el objetivo de hacer transitar a los clientes por todo el lugar.
-          .col-md.tarjeta.color-primario.bdd.p-4
+          .col-md.tarjeta.bg04.p-4
             .row.justify-content-center.mb-4
               h4.mb-4.text-center Zona caliente
               .col-6
                 figure
                   img.img-a.img-t(src='@/assets/curso/tema1/26.svg', alt='Texto que describa la imagen')
             p.text-center Área de circulación de forma natural por parte del cliente. Su técnica consiste en ubicar productos nuevos o de menor rotación.
+    
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
