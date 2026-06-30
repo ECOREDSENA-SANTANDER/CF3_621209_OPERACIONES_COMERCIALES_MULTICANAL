@@ -7,6 +7,86 @@
         span 3
       h1 Tema 3
 
+
+
+
+
+
+
+    separador
+    #t_1_1.titulo-segundo.mb-5
+      h2 
+
+
+    separador
+    #t_1_1.titulo-segundo.mb-5
+      h2
+
+
+    separador
+    #t_1_1.titulo-segundo.mb-5
+      h2
+
+
+    separador
+    #t_1_1.titulo-segundo.mb-5
+      h2
+
+
+    separador
+    #t_1_1.titulo-segundo.mb-5
+      h2
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/sub.svg')
+      h3.mb-0 
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/sub.svg')
+      h3.mb-0 
+
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/sub.svg')
+      h3.mb-0 
+
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/sub.svg')
+      h3.mb-0 
+
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/sub.svg')
+      h3.mb-0 
+
+
+
+    .tit.mb-5(data-aos="fade-right")
+      img(src='@/assets/curso/tema1/sub.svg')
+      h3.mb-0 
+
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-10
+        .titulo-sexto.mb-4
+          h5 Tabla 1.
+          | Tipos de diagnóstico organizacional
+        .tabla-a.tab1.mb-3
+
+        figcaption #[b Nota.] 
+
+
+
+
+
+
+
 </template>
 
 <script>

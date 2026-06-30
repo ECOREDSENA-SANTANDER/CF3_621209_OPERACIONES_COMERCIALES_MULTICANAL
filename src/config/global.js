@@ -1,8 +1,9 @@
 export default {
   global: {
     Name: 'Gestión del punto de venta',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
+    Description:
+      'El componente formativo Gestión del punto de venta aborda la presentación de productos dentro del establecimiento comercial como estrategia para fortalecer la promoción de ventas. Analiza elementos como el punto de venta, el <em>merchandising</em>, las técnicas de exhibición, el layout y el <em>visual merchandising</em>, con el propósito de mejorar la experiencia del cliente y estimular la decisión de compra.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-pri.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
@@ -31,7 +32,40 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos del punto de venta y el <em>merchandising</em>',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Establecimiento comercial: concepto y tipos',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Punto de venta: concepto, tipos y dimensiones',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Subtema 1',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Subtema 1',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Subtema 1',
+            hash: 't_1_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema2',
+        numero: '2',
+        titulo: 'Tema 2',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -39,20 +73,126 @@ export default {
             titulo: 'Subtema 1',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Subtema 1',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Subtema 1',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Subtema 1',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Subtema 1',
+            hash: 't_1_5',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Tema 3',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Subtema 1',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Subtema 1',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Subtema 1',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Subtema 1',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Subtema 1',
+            hash: 't_1_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Tema 2',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Subtema 1',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Subtema 1',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Subtema 1',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Subtema 1',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Subtema 1',
+            hash: 't_1_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Tema 3',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Subtema 1',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Subtema 1',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Subtema 1',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Subtema 1',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Subtema 1',
+            hash: 't_1_5',
+          },
+        ],
       },
     ],
     subMenu: [
