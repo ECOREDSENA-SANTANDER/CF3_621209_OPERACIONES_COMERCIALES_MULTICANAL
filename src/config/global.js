@@ -47,117 +47,93 @@ export default {
           },
           {
             numero: '1.3',
-            titulo: 'Subtema 1',
+            titulo:
+              '<em>Merchandising</em>: concepto, evolución, tipos, técnicas y aplicabilidad',
             hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo: 'Subtema 1',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Subtema 1',
-            hash: 't_1_5',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Exhibición comercial de productos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
+            numero: '2.1',
+            titulo:
+              'Exhibición: concepto, zonas, tipos, niveles, técnicas y usos',
+            hash: 't_2_1',
           },
           {
-            numero: '1.2',
-            titulo: 'Subtema 1',
-            hash: 't_1_2',
+            numero: '2.2',
+            titulo:
+              'Estrategias de exhibición: concepto, tipos y clasificación',
+            hash: 't_2_2',
           },
           {
-            numero: '1.3',
-            titulo: 'Subtema 1',
-            hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo: 'Subtema 1',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Subtema 1',
-            hash: 't_1_5',
+            numero: '2.3',
+            titulo:
+              'Mobiliario comercial: concepto, disposición, usos y clasificación',
+            hash: 't_2_3',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Organización del espacio comercial',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
+            numero: '3.1',
+            titulo:
+              '<em>Layout</em> o distribución en planta: concepto, aplicación y función',
+            hash: 't_3_1',
           },
           {
-            numero: '1.2',
-            titulo: 'Subtema 1',
-            hash: 't_1_2',
+            numero: '3.2',
+            titulo: 'Planogramas y planimetría: concepto, beneficios y usos ',
+            hash: 't_3_2',
           },
           {
-            numero: '1.3',
-            titulo: 'Subtema 1',
-            hash: 't_1_3',
-          },
-          {
-            numero: '1.4',
-            titulo: 'Subtema 1',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Subtema 1',
-            hash: 't_1_5',
+            numero: '3.3',
+            titulo:
+              '<em>Visual merchandising:</em> concepto, tipos y estrategias',
+            hash: 't_3_3',
           },
         ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Tema 2',
+        titulo: 'Experiencia y comunicación en el punto de venta',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
+            numero: '4.1',
+            titulo: 'Vitrinismo: concepto, tipos e importancia',
+            hash: 't_4_1',
           },
           {
-            numero: '1.2',
+            numero: '4.2',
             titulo: 'Subtema 1',
-            hash: 't_1_2',
+            hash: 't_4_2',
           },
           {
-            numero: '1.3',
+            numero: '4.3',
             titulo: 'Subtema 1',
-            hash: 't_1_3',
+            hash: 't_4_3',
           },
           {
-            numero: '1.4',
+            numero: '4.4',
             titulo: 'Subtema 1',
-            hash: 't_1_4',
+            hash: 't_4_4',
           },
           {
-            numero: '1.5',
+            numero: '4.5',
             titulo: 'Subtema 1',
-            hash: 't_1_5',
+            hash: 't_4_5',
           },
         ],
       },

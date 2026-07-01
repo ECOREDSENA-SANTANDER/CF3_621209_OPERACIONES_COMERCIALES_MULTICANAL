@@ -114,28 +114,22 @@ figcaption
   background-color:#EAFAEF
   border-radius: 14px
 
+.bg6
+  background-color: #E8EBF3
+  border-radius: 17px
 
+.bg7
+  background-color: #BAE4F8
+  border-radius: 17px
 
+.bg8
+  background-color: #E8EBF3
+  border-radius: 21px
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.bg44
-  background-color: #B5C7D1
-  min-height: 364px
+.bg9
+  background-color: #BAE4F8
+  border-radius: 15px
+  min-height: 289px
   display: flex
   flex-direction: column
   justify-content: center
@@ -143,6 +137,50 @@ figcaption
     min-height: auto 
   @media only screen and (min-width: 768px) and (max-width: 1023px)
     min-height: auto
+
+.bg10
+  background-color: #31718E !important
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+  &:hover 
+    background-color:#EDF8FD !important
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+    p, h4
+      color: black !important
+    .ima1 
+      content: url("../assets/curso/tema4/f1.svg") !important
+    .ima2 
+      content: url("../assets/curso/tema4/f2.svg") !important
+    .ima3 
+      content: url("../assets/curso/tema4/f3.svg") !important
+    .ima4
+      content: url("../assets/curso/tema4/f4.svg") !important
+
+.bg11
+  background-color: #FFF3EA
+  border-radius: 22px
+
+.bg12
+  background-color:#EAFAEF
+
+
+
+
+
+
+
+
+
+
+
 
 
 .cajon:before 
@@ -244,14 +282,151 @@ figcaption
     background-color: #FFF3EA!important
     transition: all 0.3s ease-out
 
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.5
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 27%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 73%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #FE8938
+  color: black !important
+.color-a
+  background-color: #FFF3EA
+  border-radius: 10px
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #38CE65 !important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color: #38CE65!important
+.color-acento-botones .tabs-a__tab 
+  padding: 9px 15px
+  font-size: 16px
 
+.bloque-texto-g.color-acento-contenido 
+  background-color: #FECD4C
 
+.tabs-b__tab 
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 20px
+    background-color: #38CE65
+    border-right: 4px solid #CCCCCC
+    border-top: 4px solid transparent  
+    cursor: pointer
+    transition: all 0.3s ease
+    border-bottom: none
+    img
+      filter: none
+      transition: filter 0.3s ease
+.tabs-b.color-acento-contenido .tabs-b__tab--active 
+    border-top: 6px solid #FE8938 !important  
+    background-color: #FFFFFF  
+    border-right: 4px solid #CCCCCC
+    border-bottom: none
+    img
+      background: url('../assets/curso/tema2/8.svg')
 
+.tarjeta-numerada
+  border: solid 4px
+.tarjeta-numerada.color-secundario .tarjeta-numerada__numero div 
+  color: black
+.tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero 
+  background-color: #985221
+.tarjeta-numerada.color-acento-botones .tarjeta-numerada__numero div 
+  color: white
+.tarjeta-numerada.color-acento-botones 
+  border-color: #985221
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero 
+  background-color: #31718E
+.tarjeta-numerada.color-primario 
+    border-color:  #31718E
 
+.tarjeta-numerada.color-acento-botones.t3 .tarjeta-numerada__numero 
+  background-color: #1E3A8A
+.tarjeta-numerada.color-acento-botones.t3 .tarjeta-numerada__numero div 
+  color: white
+.tarjeta-numerada.color-acento-botones.t3
+  border-color: #1E3A8A
 
+.pasos-a__linea__esquina__linea 
+    border: 3px solid
+    width: 100%
+    position: relative
+    border-radius: 0px
+.pasos-a.color-primario .pasos-a__circle 
+    background-color: #FE8938
+.pasos-a.color-primario .pasos-a__circle div 
+    color: black
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color: #FE8938
+.pasos-a.color-primario .pasos-a__linea .hor-line 
+    border-top-color: #FE8938
+.pasos-a.color-primario .pasos-a__linea__esquina__linea 
+    border-color:#FE8938
+@media only screen and (max-width: 767px)
+  .cel
+    display: none
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .cel
+    display: none
 
+.cont_5_1, .cont_5_1 *
+  position: relative
+.cont_5_1:before
+  content: ''
+  position: absolute
+  width: 125%
+  height: 70%
+  top: 15%
+  bottom: 15%
+  left: -15%
+  background-size: 100% 100%
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #BAE4F8 !important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: black !important
+.colt
+  background-color: #FE8938
 
-
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: $black
+  font-style: normal !important
+.tarjeta-audio.color-acento-botones
+  border-color: 2px solid #04D1D4
+.tarjeta-audio 
+  border: 3px solid
+  padding: 1.65em 0.7em 0.7em 1.5em
+  border-radius: 30px
+  min-height: 100px
+.audio.color-acento-contenido .audio__btn, .tarjeta-audio.color-acento-contenido .audio__btn, .tarjeta-dialogo.color-acento-contenido .audio__btn 
+  background-color: #36DBE6
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+  background: #F6E9E5
 
 
 

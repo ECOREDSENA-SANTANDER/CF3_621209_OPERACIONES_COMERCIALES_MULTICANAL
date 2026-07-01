@@ -7,7 +7,7 @@
         span 1
       h1 Fundamentos del punto de venta y el #[em merchandising]
       
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-0
       .col-lg-4
         img(src="@/assets/curso/tema1/1.svg", alt="Descripción imagen")
       .col-lg-8
@@ -220,7 +220,7 @@
     
 
     separador
-    #t_1_1.titulo-segundo.mb-5
+    #t_1_3.titulo-segundo.mb-5
       h2 1.3. #[em Merchandising:] concepto, evolución, tipos, técnicas y aplicabilidad
 
     .row.justify-content-center.align-items-center.mb-5
@@ -347,7 +347,7 @@
         figure
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2HWT5IqEZds?si=PCNsKcA2ZLHkjzUp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: #[em Merchandising] - Promoción en el punto de venta
+        figcaption Video. #[em Merchandising] - Promoción en el punto de venta
 
 
 </template>
