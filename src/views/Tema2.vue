@@ -21,20 +21,20 @@
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Exhibición: concepto, zonas, tipos, niveles, técnicas y usos
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-7
         p.mb-3 La exhibición es la forma en que los productos se presentan dentro del establecimiento comercial para facilitar su identificación, destacar sus características y estimular la compra. Esta estrategia implica organizar el mobiliario, ubicar los productos de manera funcional, utilizar recursos de iluminación y crear espacios que comuniquen la oferta comercial de forma clara y atractiva.
-        .bg7.p-4.mb-3 
+        .bg7.p-4.mb-lg-3.mb-4 
           p.mb-0 Una exhibición adecuada permite que el cliente reconozca los productos disponibles, compare alternativas y tome decisiones de compra de forma más ágil. También contribuye a mejorar el orden del punto de venta, fortalecer la identidad comercial del establecimiento y generar una experiencia de compra más agradable.
         p.mb-0 Las zonas de exhibición corresponden a los espacios del punto de venta donde se ubican los productos según el recorrido del cliente, el nivel de circulación y el propósito comercial. Estas zonas ayudan a orientar la ubicación de los productos y a definir qué artículos pueden tener mayor exposición dentro del establecimiento.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/2.png', alt='')
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Zonas de exhibición en el punto de venta
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg8.p-4.p-lg-5
           ImagenInfografica.color-primario
@@ -57,11 +57,11 @@
               p.mb-0 Corresponde a los recorridos internos del establecimiento. Su organización debe facilitar el desplazamiento, evitar obstáculos y permitir el acceso a las diferentes secciones del punto de venta.
               p.mb-0 La exhibición puede adoptar diferentes formas según el tipo de producto, el espacio disponible y la estrategia comercial definida. Entre los principales tipos de exhibición se encuentran la horizontal, vertical, masiva y temática.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Tipos de exhibición comercial
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/4.png', alt='')
       .col-lg-8
@@ -84,13 +84,14 @@
                 p.mb-4 Organiza productos según temporadas, celebraciones, eventos o campañas comerciales. Este tipo de exhibición permite crear ambientes relacionados con una necesidad o momento específico de compra.
                 p.mb-0 Los niveles de exhibición corresponden a la altura en la que se ubican los productos dentro de estanterías, góndolas o muebles comerciales. Cada nivel tiene un efecto diferente en la identificación del producto y en la posibilidad de compra.
 
-    .row
+    .row(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 5.
           | Niveles de exhibición
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-7
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-7.mb-lg-0.mb-4
         .tabla-a.tab2.mb-0
           table
             thead
@@ -115,15 +116,15 @@
         .bg9.p-4.p-lg-5
           p.mb-0 Las técnicas de exhibición son acciones aplicadas para mejorar la presentación de los productos dentro del punto de venta. Estas técnicas ayudan a organizar la oferta comercial, destacar productos específicos y facilitar la experiencia de compra.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Técnicas de exhibición de productos
 
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
         img(src="@/assets/curso/tema2/5.png", alt="Descripción imagen")
       .col-lg-9
-        AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
+        AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0
           .row.justify-content-center.align-items-center(titulo="Organización estratégica en estanterías")
             .col-lg-11
               p.mb-0.mx-lg-3 Permite ubicar los productos según categoría, rotación, tamaño, peso o prioridad comercial.
@@ -143,10 +144,10 @@
               p.mb-4.mx-lg-3 Para fortalecer la comprensión sobre los tipos de exhibición comercial, se recomienda acceder al video Tipos de exhibición, en el cual se explican diferentes formas de presentar productos dentro del punto de venta, de acuerdo con el espacio disponible, el mobiliario, la ubicación en góndolas y los objetivos de rotación comercial.
               p.mb-0.mx-lg-3 Durante la revisión del recurso, identifique cómo la exhibición vertical, horizontal, por bloques, especial, en islas, en ganchos y en zona de pago o #[em check out] permite organizar los productos de manera estratégica. También reconozca la importancia de planear la ubicación de lineales, góndolas, vitrinas, escaparates y muebles comerciales para aprovechar el espacio interno del establecimiento y facilitar la decisión de compra.
 
-    .cajon.color-primari.p-4.mb-5
+    .cajon.color-primari.p-4.mb-5(data-aos="fade-left")
       p.mb-0 #[b Acceder al video:] Tipos de exhibición.
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         figure
           .video
@@ -199,28 +200,28 @@
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Clasificación de las estrategias de exhibición
 
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
-        .row.justify-content-center.align-items-stretch(data-aos="fade-right")
-          .col-md-6.col-xl.mb-4.mb-xl-0
+        .row.justify-content-center.align-items-stretch
+          .col-md-6.col-xl.mb-4.mb-lg-0.mb-md-4
             .tarjeta-numerada.color-acento-contenido.p-4.h-100.mb-0
               .tarjeta-numerada__numero
                 .h2 1
               p.mb-4.text-center.mx-3 #[b Exhibición permanente]
               p.text-center.mx-2 Corresponde a la organización habitual de los productos dentro del establecimiento. Permite que el cliente reconozca la ubicación de las categorías y realice su recorrido con mayor facilidad.
-          .col-md-6.col-xl.mb-4.mb-xl-0
+          .col-md-6.col-xl.mb-4.mb-lg-0.mb-md-4
             .tarjeta-numerada.color-secundario.p-4.h-100.mb-0
               .tarjeta-numerada__numero
                 .h2 2
               p.mb-4.text-center.mx-3 #[b Exhibición temporal]
               p.text-center.mx-2 Se utiliza durante campañas, temporadas, lanzamientos o fechas comerciales específicas. Su propósito es destacar productos durante un periodo determinado.
-          .col-md-6.col-xl.mb-4.mb-xl-0
+          .col-md-6.col-xl.mb-4.mb-lg-0.mb-md-0
             .tarjeta-numerada.color-primario.p-4.h-100.mb-0
               .tarjeta-numerada__numero
                 .h2 3
               p.mb-4.text-center.mx-3 #[b Exhibición de impulso]
               p.text-center.mx-2 Se ubica en zonas estratégicas, como puntos de pago o áreas de alta circulación. Busca motivar compras rápidas, complementarias o no planificadas.
-          .col-md-6.col-xl.mb-4.mb-xl-0
+          .col-md-6.col-xl.mb-0.mb-lg-0.mb-md-0
             .tarjeta-numerada.color-acento-botones.p-4.h-100.mb-0
               .tarjeta-numerada__numero
                 .h2 4
@@ -235,15 +236,15 @@
     .bg6.p-lg-5.p-4.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-8.col-12.mb-0(data-aos="fade-right")
-          img.img-a.img-t(src='@/assets/curso/tema2/12.svg', alt='')
+          img.img-a.img-t.mb-lg-0.mb-4(src='@/assets/curso/tema2/12.svg', alt='')
         .col-lg-7(data-aos="fade-left")
-          .p-4
+          .p-0
             p.mb-4 El mobiliario comercial corresponde al conjunto de muebles, estructuras y soportes utilizados dentro del establecimiento para exhibir, organizar, almacenar y presentar productos. Estos elementos cumplen una función importante en la experiencia de compra, porque facilitan el acceso a los artículos, organizan el espacio y apoyan la aplicación de estrategias de #[em merchandising.]
             p.mb-0 La disposición del mobiliario comercial hace referencia a la forma en que se organizan los muebles dentro del punto de venta. Esta distribución debe considerar el tamaño del local, el tipo de productos, las zonas de circulación, las necesidades de accesibilidad, la seguridad del cliente y los objetivos de exhibición definidos por la organización.
 
-    p.mb-5 El mobiliario comercial se utiliza para exhibir productos de manera ordenada, facilitar el acceso a los artículos, aprovechar el espacio disponible, apoyar la promoción comercial y orientar el recorrido dentro del establecimiento. Su uso adecuado contribuye a una experiencia de compra más clara, cómoda e incluyente.
+    p.mb-5(data-aos="fade-right") El mobiliario comercial se utiliza para exhibir productos de manera ordenada, facilitar el acceso a los artículos, aprovechar el espacio disponible, apoyar la promoción comercial y orientar el recorrido dentro del establecimiento. Su uso adecuado contribuye a una experiencia de compra más clara, cómoda e incluyente.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Clasificación del mobiliario comercial
 

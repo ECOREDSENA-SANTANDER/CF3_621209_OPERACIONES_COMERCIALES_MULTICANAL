@@ -7,8 +7,8 @@
         span 1
       h1 Fundamentos del punto de venta y el #[em merchandising]
       
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
+      .col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/tema1/1.svg", alt="Descripción imagen")
       .col-lg-8
         p.mb-4 El punto de venta es un espacio clave dentro de la actividad comercial, porque permite acercar los productos o servicios al consumidor y facilitar la decisión de compra. En este espacio se integran elementos como la organización del establecimiento, la disposición del mobiliario, la exhibición de productos, la comunicación comercial y la atención al cliente.
@@ -20,13 +20,13 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Establecimiento comercial: concepto y tipos
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-8
         p.mb-4 El establecimiento comercial es el espacio físico o digital donde una empresa realiza actividades de venta, atención al cliente, promoción de productos y transacciones comerciales. En este lugar se genera el contacto entre la oferta de la empresa y las necesidades del consumidor, por lo cual su organización influye en la experiencia de compra y en la percepción de la marca.
         .cajon.color-acento-contenido.p-4.p-lg-5.mb-4
           p.mb-0 Desde el enfoque del #[em marketing], el establecimiento comercial funciona como un punto de contacto entre la empresa y el cliente. Por esta razón, aspectos como la distribución del espacio, la presentación de los productos, la facilidad de acceso, la señalización y la atención ofrecida ayudan a fortalecer la relación comercial y a mejorar la experiencia del consumidor.
         p.mb-0 Los establecimientos comerciales pueden clasificarse según el tipo de productos que ofrecen, el tamaño del negocio, el formato de venta o el canal utilizado para comercializar. Esta clasificación permite diferenciar los modelos de negocio que emplean las empresas para entregar sus productos o servicios al mercado.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/tema1/2.svg", alt="Descripción imagen")
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -58,7 +58,7 @@
                 td Plataforma digital donde se comercializan productos o servicios mediante canales electrónicos.
         figcaption #[b Nota.] Adaptado de Kotler y Keller (2016).
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Tipos de establecimiento comercial
 
@@ -101,17 +101,17 @@
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Punto de venta: concepto, tipos y dimensiones
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-6.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
       .col-lg-6
         p.mb-3 El punto de venta es el espacio físico o digital donde se realiza la interacción comercial entre la empresa y el consumidor. En este lugar se presentan los productos, se ofrece información, se aplican acciones promocionales y se concreta la compra. Por esta razón, su organización tiene impacto directo en la experiencia del cliente y en la efectividad de las estrategias comerciales.
         p.mb-0 Desde la perspectiva del #[em marketing], el punto de venta es un elemento importante del canal comercial, porque permite acercar el producto al consumidor y facilitar el proceso de compra. Una adecuada gestión del punto de venta ayuda a ordenar los productos, mejorar la circulación, comunicar promociones y generar ambientes accesibles para diferentes tipos de clientes.
 
-    .bg1.p-4.mb-4 
+    .bg1.p-4.mb-4(data-aos="fade-right")
       p.mb-0 Los puntos de venta pueden clasificarse según el canal utilizado, el nivel de intermediación y la forma de contacto con el consumidor. Esta clasificación permite seleccionar estrategias comerciales acordes con el tipo de producto, el comportamiento del consumidor y los objetivos de la organización.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 2.
@@ -150,53 +150,52 @@
                 td Tiendas de barrio, minimercados o locales comerciales.
         figcaption #[b Nota.] Adaptado de Kotler y Keller (2016).
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         img(src='@/assets/curso/tema1/9.png', alt='')
     
-    p.mb-4 Las dimensiones del punto de venta hacen referencia al tamaño, proporciones y distribución del espacio comercial. Estas dimensiones influyen en la ubicación del mobiliario, la organización de pasillos, la circulación de las personas y la capacidad de exhibición de los productos. Una planificación adecuada permite aprovechar el espacio disponible y facilitar el acceso a las diferentes zonas del establecimiento.
+    p.mb-4(data-aos="fade-left") Las dimensiones del punto de venta hacen referencia al tamaño, proporciones y distribución del espacio comercial. Estas dimensiones influyen en la ubicación del mobiliario, la organización de pasillos, la circulación de las personas y la capacidad de exhibición de los productos. Una planificación adecuada permite aprovechar el espacio disponible y facilitar el acceso a las diferentes zonas del establecimiento.
 
-    p.mb-5 También es importante considerar la accesibilidad del punto de venta. Esto implica contar con pasillos despejados, señalización clara, zonas de circulación seguras y espacios que faciliten el desplazamiento de personas con diferentes necesidades de movilidad. De esta manera, el establecimiento puede ofrecer una experiencia de compra más cómoda, ordenada e incluyente.
+    p.mb-5(data-aos="fade-right") También es importante considerar la accesibilidad del punto de venta. Esto implica contar con pasillos despejados, señalización clara, zonas de circulación seguras y espacios que faciliten el desplazamiento de personas con diferentes necesidades de movilidad. De esta manera, el establecimiento puede ofrecer una experiencia de compra más cómoda, ordenada e incluyente.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        .titulo-dos.mb-0
+        .titulo-dos.mb-5
           h4 Entre los factores relacionados con las dimensiones del punto de venta se encuentran:
-        .bg2.p-3
-          .tarjeta.tarjeta--azul.p-4.pb-0.mb-4
-            SlyderA.pb-lg-1.pb-3(tipo="a")
-              .row.justify-content-center.align-items-center.mb-0
-                .col-lg-6
-                  img.img-a.img-t(src='@/assets/curso/tema1/11.svg', alt='')
-                .col-lg-6
-                  h4.mb-4 Tamaño del local: 
-                  p.mb-0 Corresponde al espacio total disponible dentro del establecimiento. Este factor permite definir la cantidad de productos a exhibir, las zonas de circulación, las áreas de atención, los puntos de pago y los espacios de almacenamiento.
-              .row.justify-content-center.align-items-center.mb-0
-                .col-lg-6
-                  img.img-a.img-t(src='@/assets/curso/tema1/12.svg', alt='')
-                .col-lg-6
-                  h4.mb-4 Ancho de pasillos: 
-                  p.mb-0 Corresponde al espacio destinado para el desplazamiento de los clientes. Un ancho adecuado facilita la circulación, reduce obstáculos y mejora la comodidad durante el recorrido por el establecimiento.
-              .row.justify-content-center.align-items-center.mb-0
-                .col-lg-6
-                  img.img-a.img-t(src='@/assets/curso/tema1/13.svg', alt='')
-                .col-lg-6
-                  h4.mb-4 Distribución del mobiliario: 
-                  p.mb-0 Se refiere a la forma como se organizan estanterías, góndolas, vitrinas, mesas de exhibición, mostradores y otros elementos. Una distribución clara permite aprovechar el espacio y facilitar el acceso a los productos.
-              .row.justify-content-center.align-items-center.mb-0
-                .col-lg-6
-                  img.img-a.img-t(src='@/assets/curso/tema1/14.svg', alt='')
-                .col-lg-6
-                  h4.mb-4 Zonas de circulación: 
-                  p.mb-0 Son los espacios destinados para orientar el recorrido de las personas dentro del establecimiento. Estas zonas ayudan a organizar el flujo de clientes y a facilitar el acceso a las diferentes categorías de productos.
-      .col-lg-4
+        .tarjeta.tarjeta--azul.p-4.pb-0.mb-0
+          SlyderA.pb-lg-5.pb-3(tipo="a")
+            .row.justify-content-center.align-items-center.my-lg-4.mb-0
+              .col-md-3.mb-4.mb-md-0.mt-lg-1
+                img.img-a.img-t(src='@/assets/curso/tema1/11.svg', alt='')
+              .col-md-6
+                h4.mb-4 Tamaño del local: 
+                p.mb-2 Corresponde al espacio total disponible dentro del establecimiento. Este factor permite definir la cantidad de productos a exhibir, las zonas de circulación, las áreas de atención, los puntos de pago y los espacios de almacenamiento.
+            .row.justify-content-center.align-items-center.my-lg-0.mb-0
+              .col-md-3.mb-4.mb-md-0
+                img.img-a.img-t(src='@/assets/curso/tema1/12.svg', alt='')
+              .col-md-6
+                h4.mb-4 Ancho de pasillos: 
+                p.mb-0 Corresponde al espacio destinado para el desplazamiento de los clientes. Un ancho adecuado facilita la circulación, reduce obstáculos y mejora la comodidad durante el recorrido por el establecimiento.
+            .row.justify-content-center.align-items-center.my-lg-0.mb-0
+              .col-md-3.mb-4.mb-md-0
+                img.img-a.img-t(src='@/assets/curso/tema1/13.svg', alt='')
+              .col-md-6
+                h4.mb-4 Distribución del mobiliario: 
+                p.mb-0 Se refiere a la forma como se organizan estanterías, góndolas, vitrinas, mesas de exhibición, mostradores y otros elementos. Una distribución clara permite aprovechar el espacio y facilitar el acceso a los productos.
+            .row.justify-content-center.align-items-center.my-lg-0.mb-0
+              .col-md-3.mb-4.mb-md-0
+                img.img-a.img-t(src='@/assets/curso/tema1/14.svg', alt='')
+              .col-md-6
+                h4.mb-4 Zonas de circulación: 
+                p.mb-0 Son los espacios destinados para orientar el recorrido de las personas dentro del establecimiento. Estas zonas ayudan a organizar el flujo de clientes y a facilitar el acceso a las diferentes categorías de productos.
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema1/10.png', alt='')
 
     .tit.mb-5(data-aos="fade-right")
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Dimensiones del punto de venta
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .bg3.p-4
           ImagenInfografica.color-acento-botones
@@ -223,12 +222,12 @@
     #t_1_3.titulo-segundo.mb-5
       h2 1.3. #[em Merchandising:] concepto, evolución, tipos, técnicas y aplicabilidad
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg4.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5
-              img.img-a.img-t(src='@/assets/curso/tema1/16.svg')
+              img.img-a.img-t.mb-lg-0.mb-4(src='@/assets/curso/tema1/16.svg')
             .col-lg-7
               p.mb-4 El #[em merchandising] es el conjunto de técnicas y estrategias aplicadas en el punto de venta para presentar los productos de forma organizada, atractiva y funcional. Su propósito es facilitar la identificación de los productos, orientar la decisión de compra y mejorar la experiencia del cliente dentro del establecimiento comercial.
               p.mb-4 Este concepto se relaciona con la forma como se ubican los productos, la organización del espacio, el uso de iluminación, la señalización, la ambientación, el mobiliario y las acciones promocionales. Al aplicar estrategias de #[em merchandising], la empresa puede fortalecer la presentación de su oferta comercial y generar condiciones más favorables para la compra.
@@ -264,21 +263,22 @@
           .col-lg-5.d-none.d-lg-block
             img(src="@/assets/curso/tema1/17.png", alt="Descripción imagen")
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .bg5.p-4 
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-1
-              img.img-a.img-t(src='@/assets/curso/tema1/18.svg')
+              img.img-a.img-t.mb-lg-0.mb-4(src='@/assets/curso/tema1/18.svg')
             .col-lg-10
               p.mb-0 El #[em merchandising] puede clasificarse según el enfoque de las acciones utilizadas dentro del punto de venta. Cada tipo cumple una función específica en la presentación de los productos y en la gestión comercial del establecimiento.
 
-    .row
+    .row(data-aos="fade-left")
       .col-lg-7.offset-lg-5
         .titulo-sexto.mb-4
           h5 Tabla 4.
           | Tipos de #[em merchandising]
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/tema1/19.png", alt="Descripción imagen")
       .col-lg-7
@@ -303,17 +303,17 @@
                 td Aplica herramientas tecnológicas para apoyar la presentación de productos y la interacción comercial en entornos físicos o digitales.
         figcaption #[b Nota.] Adaptado de Levy y Weitz (2012).
 
-    p.mb-4 Las técnicas de #[em merchandising] son acciones concretas que ayudan a mejorar la presentación de los productos dentro del establecimiento comercial. Entre las más utilizadas se encuentran la ubicación estratégica en estanterías, la señalización clara, la creación de exhibiciones promocionales, la organización por categorías, la iluminación dirigida y la disposición adecuada del mobiliario.
+    p.mb-4(data-aos="fade-left") Las técnicas de #[em merchandising] son acciones concretas que ayudan a mejorar la presentación de los productos dentro del establecimiento comercial. Entre las más utilizadas se encuentran la ubicación estratégica en estanterías, la señalización clara, la creación de exhibiciones promocionales, la organización por categorías, la iluminación dirigida y la disposición adecuada del mobiliario.
 
-    p.mb-5 Estas técnicas pueden aplicarse en diferentes tipos de establecimientos, como supermercados, farmacias, tiendas de ropa, almacenes de tecnología, tiendas especializadas, grandes superficies y canales digitales. Su aplicación permite fortalecer la comunicación entre la marca y el consumidor, mejorar el orden del punto de venta y facilitar una experiencia de compra más clara, accesible y agradable.
+    p.mb-5(data-aos="fade-right") Estas técnicas pueden aplicarse en diferentes tipos de establecimientos, como supermercados, farmacias, tiendas de ropa, almacenes de tecnología, tiendas especializadas, grandes superficies y canales digitales. Su aplicación permite fortalecer la comunicación entre la marca y el consumidor, mejorar el orden del punto de venta y facilitar una experiencia de compra más clara, accesible y agradable.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/sub.svg')
       h3.mb-0 Técnicas básicas de #[em merchandising]
 
-    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-7
-        AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
+        AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0
           .row.justify-content-center.align-items-center(titulo="Ubicación estratégica")
             .col-lg-10
               p.mb-0 Consiste en colocar los productos en zonas de mayor circulación o en espacios que faciliten su identificación por parte del cliente.
@@ -335,14 +335,14 @@
       .col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/tema1/20.png", alt="Descripción imagen")
 
-    p.mb-4 Para fortalecer la comprensión sobre las técnicas básicas de #[em merchandising], se recomienda acceder al video #[em Merchandising] - Promoción en el punto de venta, en el cual se explica cómo las acciones promocionales apoyan la presentación de productos, la comunicación comercial y la decisión de compra dentro del establecimiento.
+    p.mb-4(data-aos="fade-left") Para fortalecer la comprensión sobre las técnicas básicas de #[em merchandising], se recomienda acceder al video #[em Merchandising] - Promoción en el punto de venta, en el cual se explica cómo las acciones promocionales apoyan la presentación de productos, la comunicación comercial y la decisión de compra dentro del establecimiento.
 
-    p.mb-5 Durante la revisión del recurso, identifique cómo la promoción en el punto de venta permite destacar productos, comunicar beneficios y generar mayor interés en el cliente. También reconozca la importancia de integrar la exhibición, la señalización, la ambientación y los mensajes promocionales como acciones complementarias para mejorar la experiencia de compra y fortalecer los objetivos comerciales de la organización.
+    p.mb-5(data-aos="fade-right") Durante la revisión del recurso, identifique cómo la promoción en el punto de venta permite destacar productos, comunicar beneficios y generar mayor interés en el cliente. También reconozca la importancia de integrar la exhibición, la señalización, la ambientación y los mensajes promocionales como acciones complementarias para mejorar la experiencia de compra y fortalecer los objetivos comerciales de la organización.
 
-    .cajon.color-primari.p-4.mb-5
+    .cajon.color-primari.p-4.mb-5(data-aos="fade-left")
       p.mb-0 #[b Acceder al video:] #[em Merchandising] - Promoción en el punto de venta.
     
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         figure
           .video

@@ -3,7 +3,7 @@ export default {
     Name: 'Gestión del punto de venta',
     Description:
       'El componente formativo Gestión del punto de venta aborda la presentación de productos dentro del establecimiento comercial como estrategia para fortalecer la promoción de ventas. Analiza elementos como el punto de venta, el <em>merchandising</em>, las técnicas de exhibición, el layout y el <em>visual merchandising</em>, con el propósito de mejorar la experiencia del cliente y estimular la decisión de compra.',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-pri.png',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
@@ -117,56 +117,49 @@ export default {
           },
           {
             numero: '4.2',
-            titulo: 'Subtema 1',
+            titulo:
+              '<em>Marketing</em> sensorial: concepto, tipos, funciones y beneficios',
             hash: 't_4_2',
           },
           {
             numero: '4.3',
-            titulo: 'Subtema 1',
+            titulo: 'Teoría del color: concepto y clasificación',
             hash: 't_4_3',
           },
           {
             numero: '4.4',
-            titulo: 'Subtema 1',
+            titulo:
+              'Comunicación comercial: concepto, clases, usos y tipos de material promocional',
             hash: 't_4_4',
-          },
-          {
-            numero: '4.5',
-            titulo: 'Subtema 1',
-            hash: 't_4_5',
           },
         ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Tema 3',
+        titulo: 'Gestión, apoyo y control de la exhibición',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
+            numero: '5.1',
+            titulo: '<em>Software</em> de gestión en el punto de venta',
+            hash: 't_5_1',
           },
           {
-            numero: '1.2',
-            titulo: 'Subtema 1',
-            hash: 't_1_2',
+            numero: '5.2',
+            titulo: 'Recursos de apoyo: concepto, tipos y beneficios',
+            hash: 't_5_2',
           },
           {
-            numero: '1.3',
-            titulo: 'Subtema 1',
-            hash: 't_1_3',
+            numero: '5.3',
+            titulo: 'Plan de exhibición: concepto, estructura y etapas',
+            hash: 't_5_3',
           },
           {
-            numero: '1.4',
-            titulo: 'Subtema 1',
-            hash: 't_1_4',
-          },
-          {
-            numero: '1.5',
-            titulo: 'Subtema 1',
-            hash: 't_1_5',
+            numero: '5.4',
+            titulo:
+              'Herramientas de verificación: concepto, tipos y beneficios',
+            hash: 't_5_4',
           },
         ],
       },
