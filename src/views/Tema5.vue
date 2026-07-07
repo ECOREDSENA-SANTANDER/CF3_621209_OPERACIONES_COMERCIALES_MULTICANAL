@@ -212,45 +212,50 @@
     
     p.mb-5(data-aos="fade-left") El desarrollo del plan de exhibición se realiza por etapas. Estas etapas permiten analizar el contexto, organizar la propuesta, implementar la exhibición y evaluar los resultados para realizar mejoras.
 
-    .row.justify-content-center.align-items-end.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .tit.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema1/sub.svg')
           h3.mb-0 Etapas del plan de exhibición
-        .tarjeta.tarjeta--azul.p-4.pb-0.mb-0
-          SlyderA.pb-lg-5.pb-3(tipo="a")
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema5/19.svg', alt='')
-              .col-md-6
-                h4.mb-4 Análisis
-                p.mb-0 Se identifica el espacio disponible, el tipo de producto, el público objetivo, las zonas del punto de venta y los objetivos comerciales.
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema5/20.svg', alt='')
-              .col-md-6
-                h4.mb-4 Organización 
-                p.mb-0 Se define la distribución de productos, el mobiliario, la señalización, los recursos de apoyo y la ubicación de la exhibición.
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema5/21.svg', alt='')
-              .col-md-6
-                h4.mb-4 Implementación
-                p.mb-0 Se realiza el montaje de la exhibición en el punto de venta, teniendo en cuenta orden, accesibilidad, limpieza, disponibilidad y coherencia visual.
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema5/22.svg', alt='')
-              .col-md-6
-                h4.mb-4 Evaluación 
-                p.mb-0 Se revisan los resultados de la exhibición mediante ventas, rotación, comportamiento del cliente, cumplimiento de actividades y oportunidades de mejora.
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema5/23.svg', alt='')
-              .col-md-6
-                h4.mb-4 Ajuste 
-                p.mb-0 Se aplican cambios cuando se identifican fallas, productos con baja rotación, problemas de acceso, falta de señalización o necesidades de reposición.
+        .bgt.p-lg-0.p-0
+          SlyderF.circl-arrow(columnas="col-xl-12").ps-lg-4.pe-lg-4
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema5/19.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Análisis
+                  p.mb-0 Se identifica el espacio disponible, el tipo de producto, el público objetivo, las zonas del punto de venta y los objetivos comerciales.
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema5/20.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Organización 
+                  p.mb-0 Se define la distribución de productos, el mobiliario, la señalización, los recursos de apoyo y la ubicación de la exhibición.
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema5/21.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Implementación
+                  p.mb-0 Se realiza el montaje de la exhibición en el punto de venta, teniendo en cuenta orden, accesibilidad, limpieza, disponibilidad y coherencia visual.
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema5/22.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Evaluación 
+                  p.mb-0 Se revisan los resultados de la exhibición mediante ventas, rotación, comportamiento del cliente, cumplimiento de actividades y oportunidades de mejora.
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema5/23.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Ajuste 
+                  p.mb-0 Se aplican cambios cuando se identifican fallas, productos con baja rotación, problemas de acceso, falta de señalización o necesidades de reposición.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema5/15.png')
+        img(src='@/assets/curso/tema5/15.png', alt='')
 
     p.mb-4(data-aos="fade-left") Estas etapas permiten asegurar que la exhibición no solo se implemente, sino que también se revise y mejore de manera continua. Una exhibición bien planificada debe responder a los objetivos de la organización, al comportamiento del cliente y a las condiciones reales del punto de venta.
     

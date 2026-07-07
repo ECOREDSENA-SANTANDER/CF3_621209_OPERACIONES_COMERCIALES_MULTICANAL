@@ -157,37 +157,46 @@
     p.mb-4(data-aos="fade-left") Las dimensiones del punto de venta hacen referencia al tamaño, proporciones y distribución del espacio comercial. Estas dimensiones influyen en la ubicación del mobiliario, la organización de pasillos, la circulación de las personas y la capacidad de exhibición de los productos. Una planificación adecuada permite aprovechar el espacio disponible y facilitar el acceso a las diferentes zonas del establecimiento.
 
     p.mb-5(data-aos="fade-right") También es importante considerar la accesibilidad del punto de venta. Esto implica contar con pasillos despejados, señalización clara, zonas de circulación seguras y espacios que faciliten el desplazamiento de personas con diferentes necesidades de movilidad. De esta manera, el establecimiento puede ofrecer una experiencia de compra más cómoda, ordenada e incluyente.
+    
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+
+
+
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-dos.mb-5
           h4 Entre los factores relacionados con las dimensiones del punto de venta se encuentran:
-        .tarjeta.tarjeta--azul.p-4.pb-0.mb-0
-          SlyderA.pb-lg-5.pb-3(tipo="a")
-            .row.justify-content-center.align-items-center.my-lg-4.mb-0
-              .col-md-3.mb-4.mb-md-0.mt-lg-1
-                img.img-a.img-t(src='@/assets/curso/tema1/11.svg', alt='')
-              .col-md-6
-                h4.mb-4 Tamaño del local: 
-                p.mb-2 Corresponde al espacio total disponible dentro del establecimiento. Este factor permite definir la cantidad de productos a exhibir, las zonas de circulación, las áreas de atención, los puntos de pago y los espacios de almacenamiento.
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema1/12.svg', alt='')
-              .col-md-6
-                h4.mb-4 Ancho de pasillos: 
-                p.mb-0 Corresponde al espacio destinado para el desplazamiento de los clientes. Un ancho adecuado facilita la circulación, reduce obstáculos y mejora la comodidad durante el recorrido por el establecimiento.
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema1/13.svg', alt='')
-              .col-md-6
-                h4.mb-4 Distribución del mobiliario: 
-                p.mb-0 Se refiere a la forma como se organizan estanterías, góndolas, vitrinas, mesas de exhibición, mostradores y otros elementos. Una distribución clara permite aprovechar el espacio y facilitar el acceso a los productos.
-            .row.justify-content-center.align-items-center.my-lg-0.mb-0
-              .col-md-3.mb-4.mb-md-0
-                img.img-a.img-t(src='@/assets/curso/tema1/14.svg', alt='')
-              .col-md-6
-                h4.mb-4 Zonas de circulación: 
-                p.mb-0 Son los espacios destinados para orientar el recorrido de las personas dentro del establecimiento. Estas zonas ayudan a organizar el flujo de clientes y a facilitar el acceso a las diferentes categorías de productos.
+        .bgt.p-lg-0.p-0
+          SlyderF.circl-arrow(columnas="col-xl-12").ps-lg-4.pe-lg-4
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema1/11.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Tamaño del local: 
+                  p.mb-2 Corresponde al espacio total disponible dentro del establecimiento. Este factor permite definir la cantidad de productos a exhibir, las zonas de circulación, las áreas de atención, los puntos de pago y los espacios de almacenamiento.
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema1/12.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Ancho de pasillos: 
+                  p.mb-0 Corresponde al espacio destinado para el desplazamiento de los clientes. Un ancho adecuado facilita la circulación, reduce obstáculos y mejora la comodidad durante el recorrido por el establecimiento.
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema1/13.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Distribución del mobiliario: 
+                  p.mb-0 Se refiere a la forma como se organizan estanterías, góndolas, vitrinas, mesas de exhibición, mostradores y otros elementos. Una distribución clara permite aprovechar el espacio y facilitar el acceso a los productos.
+            .tarjeta.tarjeta--slyder.b3.p-lg-5.cen.p-4
+              .row.justify-content-center.align-items-center.my-lg-3.mb-0
+                .col-lg-3.col-md-3.col-8.mb-lg-0.mb-4.mb-md-0
+                  img.img-a.img-t(src='@/assets/curso/tema1/14.svg', alt='')
+                .col-lg-9.col-md-9
+                  h4.mb-4 Zonas de circulación: 
+                  p.mb-0 Son los espacios destinados para orientar el recorrido de las personas dentro del establecimiento. Estas zonas ayudan a organizar el flujo de clientes y a facilitar el acceso a las diferentes categorías de productos.
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema1/10.png', alt='')
 
