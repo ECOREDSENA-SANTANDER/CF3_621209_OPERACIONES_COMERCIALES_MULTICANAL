@@ -285,8 +285,8 @@
       .col-lg-12
         .bg21.p-lg-5.p-4
           .row.justify-content-center.align-items-center.mb-0
-            .col-lg-5
-              img.img-a.img-t(src='@/assets/curso/tema5/25.svg')
+            .col-lg-5.col-8.col-md-8
+              img.img-a.img-t.mb-lg-0.mb-4(src='@/assets/curso/tema5/25.svg')
             .col-lg-7
               p.mb-4 Las herramientas de verificación son instrumentos utilizados para revisar, controlar y validar que las actividades comerciales se desarrollen de acuerdo con lo planificado. En el punto de venta, estas herramientas permiten evaluar la exhibición, el surtido, la limpieza, la señalización, la reposición, el cumplimiento de actividades y los resultados obtenidos.
               p.mb-0 Su aplicación es importante porque facilita la identificación de fallas, desviaciones y oportunidades de mejora. También permite tomar decisiones basadas en información organizada, lo que contribuye a fortalecer la calidad de la gestión comercial.
