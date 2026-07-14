@@ -272,7 +272,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="Podcast: planeando la exhibición para vender mejor"
-                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
+                :audio="require_src('@/assets/actividad/audio/2Podcast_2_CF2-621209_Operaciones_comerciales_multicanal.mp4')"
             ).mb-0
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
