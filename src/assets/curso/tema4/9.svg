@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="383.569" height="395.989" viewBox="0 0 383.569 395.989">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="382.569" height="390.989" viewBox="0 0 382.569 390.989">
   <defs>
     <clipPath id="clip-path">
-      <rect x="15" y="15" width="383.569" height="395.989" fill="none"/>
+      <rect x="16" y="17" width="382.569" height="390.989" fill="none"/>
     </clipPath>
     <clipPath id="clip-path-2">
       <rect id="Rectángulo_457614" data-name="Rectángulo 457614" width="422.569" height="463.989" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1196606" data-name="Grupo 1196606" transform="translate(-236 -2894.011)">
-    <g id="Grupo_1196605" data-name="Grupo 1196605">
-      <g id="Grupo_1196604" data-name="Grupo 1196604">
-        <g id="Grupo_1196603" data-name="Grupo 1196603">
-          <g id="Grupo_1196602" data-name="Grupo 1196602">
+  <g id="Grupo_1196591" data-name="Grupo 1196591" transform="translate(-237 -2896.011)">
+    <g id="Grupo_1196590" data-name="Grupo 1196590">
+      <g id="Grupo_1196589" data-name="Grupo 1196589">
+        <g id="Grupo_1196588" data-name="Grupo 1196588">
+          <g id="Grupo_1196587" data-name="Grupo 1196587">
             <g id="Grupo_de_desplazamiento_1" data-name="Grupo de desplazamiento 1" transform="translate(221 2879.011)" clip-path="url(#clip-path)" style="isolation: isolate">
               <g id="Grupo_1196353" data-name="Grupo 1196353">
                 <g id="Grupo_1196352" data-name="Grupo 1196352">
@@ -44,12 +44,12 @@
                 <text id="_" data-name=" " transform="translate(66.93 199.502) rotate(-65.731)" fill="#ffcdc5" font-size="54" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0"> </tspan></text>
                 <text id="_2" data-name=" " transform="translate(74.992 182.248) rotate(-59.731)" fill="#ffcdc5" font-size="54" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0"> </tspan></text>
                 <text id="P" transform="matrix(0.638, -0.77, 0.77, 0.638, 84.769, 166.42)" fill="#462444" font-size="55" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">P</tspan></text>
-                <text id="O" transform="matrix(0.797, -0.603, 0.603, 0.797, 110.532, 135.739)" fill="#462444" font-size="55" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">O</tspan></text>
-                <text id="D" transform="matrix(0.916, -0.402, 0.402, 0.916, 144.849, 109.307)" fill="#462444" font-size="54" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">D</tspan></text>
-                <text id="C" transform="matrix(0.982, -0.19, 0.19, 0.982, 182.975, 94.202)" fill="#462444" font-size="55" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">C</tspan></text>
-                <text id="A" transform="matrix(0.999, 0.033, -0.033, 0.999, 222.44, 87.018)" fill="#462444" font-size="55" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">A</tspan></text>
-                <text id="S" transform="matrix(0.968, 0.251, -0.251, 0.968, 262.525, 88.826)" fill="#462444" font-size="55" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">S</tspan></text>
-                <text id="T" transform="translate(300.419 99.279) rotate(26.448)" fill="#462444" font-size="55" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">T</tspan></text>
+                <text id="O" transform="matrix(0.797, -0.603, 0.603, 0.797, 110.532, 135.739)" fill="#462444" font-size="55" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="0">o</tspan></text>
+                <text id="D" transform="matrix(0.916, -0.402, 0.402, 0.916, 144.849, 109.307)" fill="#462444" font-size="54" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="0">d</tspan></text>
+                <text id="C" transform="matrix(0.982, -0.19, 0.19, 0.982, 182.975, 94.202)" fill="#462444" font-size="55" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="0">c</tspan></text>
+                <text id="A" transform="matrix(0.999, 0.033, -0.033, 0.999, 222.44, 87.018)" fill="#462444" font-size="55" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="0">a</tspan></text>
+                <text id="S" transform="matrix(0.968, 0.251, -0.251, 0.968, 262.525, 88.826)" fill="#462444" font-size="55" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="0">s</tspan></text>
+                <text id="T" transform="translate(300.419 99.279) rotate(26.448)" fill="#462444" font-size="55" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="0">t</tspan></text>
               </g>
             </g>
           </g>

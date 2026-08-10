@@ -229,7 +229,7 @@
 
     separador
     #t_1_3.titulo-segundo.mb-5
-      h2 1.3. #[em Merchandising:] concepto, evolución, tipos, técnicas y aplicabilidad
+      h2 1.3 #[em Merchandising:] concepto, evolución, tipos, técnicas y aplicabilidad
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -348,7 +348,7 @@
 
     p.mb-5(data-aos="fade-right") Durante la revisión del recurso, identifique cómo la promoción en el punto de venta permite destacar productos, comunicar beneficios y generar mayor interés en el cliente. También reconozca la importancia de integrar la exhibición, la señalización, la ambientación y los mensajes promocionales como acciones complementarias para mejorar la experiencia de compra y fortalecer los objetivos comerciales de la organización.
 
-    .cajon.color-primari.p-4.mb-5(data-aos="fade-left")
+    //.cajon.color-primari.p-4.mb-5(data-aos="fade-left")
       p.mb-0 #[b Acceder al video:] #[em Merchandising] - Promoción en el punto de venta.
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")

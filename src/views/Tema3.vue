@@ -102,7 +102,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-12 
                 p.mb-4 La planimetría organiza el espacio general y el planograma define la ubicación detallada de los productos. Cuando se integran, facilitan una exhibición más ordenada y coherente.
-                p.mb-4 El uso de planogramas y planimetría genera beneficios para la gestión del punto de venta. Estas herramientas permiten mejorar la organización de productos, aprovechar el espacio, facilitar la reposición, apoyar el control del inventario, destacar productos estratégicos y fortalecer las acciones de merchandising.
+                p.mb-4 El uso de planogramas y planimetría genera beneficios para la gestión del punto de venta. Estas herramientas permiten mejorar la organización de productos, aprovechar el espacio, facilitar la reposición, apoyar el control del inventario, destacar productos estratégicos y fortalecer las acciones de #[em merchandising.]
                 p.mb-0 Entre sus principales usos se encuentran planificar la ubicación de productos en estanterías o góndolas, diseñar la distribución del espacio comercial, organizar promociones, preparar exhibiciones especiales, apoyar la reposición de mercancía y mejorar la experiencia de compra dentro del establecimiento.
 
     .tit.mb-5(data-aos="fade-right")
@@ -137,7 +137,7 @@
 
     p.mb-5(data-aos="fade-left") Durante la revisión del recurso, identifique cómo el planograma contribuye a mejorar la ubicación de los productos, aprovechar el espacio comercial, reducir faltantes en exhibición y facilitar el trabajo del personal encargado de la reposición. También reconozca la importancia de definir el emplazamiento, la extensión de la categoría, la disposición de los productos, la señalización y el material promocional en el punto de venta.
 
-    .cajon.color-primari.p-4.mb-5(data-aos="fade-right")
+    //.cajon.color-primari.p-4.mb-5(data-aos="fade-right")
       p.mb-0 #[b Acceder al video:] Planograma.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -149,7 +149,7 @@
 
     separador
     #t_3_3.titulo-segundo.mb-5
-      h2 3.3 Visual merchandising: concepto, tipos y estrategias
+      h2 3.3 #[em Visual merchandising:] concepto, tipos y estrategias
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
@@ -239,7 +239,7 @@
     
     p.mb-5(data-aos="fade-left") Durante la revisión del recurso, identifique cómo elementos como la iluminación, el color, la música, los aromas, la temperatura, la decoración y el #[em packaging] pueden influir en la permanencia del cliente dentro del establecimiento. También reconozca la importancia de integrar la vitrina, la organización de productos y la identidad visual del negocio para atraer clientes, facilitar la decisión de compra y fortalecer la recordación del establecimiento.
 
-    .cajon.color-primari.p-4.mb-5(data-aos="fade-right")
+    //.cajon.color-primari.p-4.mb-5(data-aos="fade-right")
       p.mb-0 #[b Acceder al video:] #[em Visual Merchandising.]
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")

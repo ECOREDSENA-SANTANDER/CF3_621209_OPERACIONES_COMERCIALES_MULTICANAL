@@ -144,7 +144,7 @@
               p.mb-4.mx-lg-3 Para fortalecer la comprensión sobre los tipos de exhibición comercial, se recomienda acceder al video Tipos de exhibición, en el cual se explican diferentes formas de presentar productos dentro del punto de venta, de acuerdo con el espacio disponible, el mobiliario, la ubicación en góndolas y los objetivos de rotación comercial.
               p.mb-0.mx-lg-3 Durante la revisión del recurso, identifique cómo la exhibición vertical, horizontal, por bloques, especial, en islas, en ganchos y en zona de pago o #[em check out] permite organizar los productos de manera estratégica. También reconozca la importancia de planear la ubicación de lineales, góndolas, vitrinas, escaparates y muebles comerciales para aprovechar el espacio interno del establecimiento y facilitar la decisión de compra.
 
-    .cajon.color-primari.p-4.mb-5(data-aos="fade-left")
+    //.cajon.color-primari.p-4.mb-5(data-aos="fade-left")
       p.mb-0 #[b Acceder al video:] Tipos de exhibición.
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")

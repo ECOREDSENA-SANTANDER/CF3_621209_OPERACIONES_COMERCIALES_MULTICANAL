@@ -79,7 +79,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6
-        p.mb-4 Para fortalecer la comprensión sobre el vitrinismo como estrategia de comunicación en el punto de venta, se recomienda acceder al podcast Vitrinismo hoy: una vitrina que comunica y vende. En este recurso se explica cómo la vitrina puede convertirse en un canal para comunicar identidad, destacar productos y generar interés en los clientes potenciales.
+        p.mb-4 Para fortalecer la comprensión sobre el vitrinismo como estrategia de comunicación en el punto de venta, se recomienda acceder al #[em podcast] Vitrinismo hoy: una vitrina que comunica y vende. En este recurso se explica cómo la vitrina puede convertirse en un canal para comunicar identidad, destacar productos y generar interés en los clientes potenciales.
         p.mb-0 Durante la escucha del recurso, identifique cómo la organización de la vitrina, el uso del color, la iluminación, la disposición de los productos y la coherencia con la marca pueden influir en la decisión de ingreso al establecimiento. También reconozca la importancia de planear, evaluar y mejorar la vitrina como parte de las acciones de #[em merchandising] en el punto de venta.
       .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema4/8.png', alt='')
@@ -92,7 +92,7 @@
           .tarjeta.color-primario.p-4.rounded-0.h-100
             .tarjeta.bg-white.p-4.p-lg-5.h-100
               TarjetaAudio.color-acento-botones.mb-0(
-              texto="Podcast: Vitrinismo hoy: una vitrina que comunica y vende"
+              texto="<i>Podcast:</i> Vitrinismo hoy: una vitrina que comunica y vende"
               :audio="require_src('@/assets/actividad/audio/CF3_621209_Operaciones_comerciales_multicanal.mp4')"
           ).mb-0
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -191,7 +191,7 @@
       p.mb-4 Para fortalecer la comprensión sobre el #[em marketing] sensorial, se recomienda acceder al video “#[em Marketing] sensorial”, en el cual se explica cómo el proceso de compra no depende únicamente de aspectos racionales, sino también de emociones, experiencias, vivencias y sensaciones que influyen en el comportamiento del consumidor.
       p.mb-0 Durante la revisión del recurso, identifique cómo los estímulos presentes en el establecimiento pueden transformar la experiencia de compra y generar una relación más cercana entre el cliente, el producto y el espacio comercial. También reconozca la importancia de diseñar ambientes que integren música, aromas, iluminación, temperatura, texturas y otros elementos sensoriales de forma coherente con los objetivos del punto de venta.
 
-    .cajon.color-primari.p-4.mb-5(data-aos="fade-left")
+    //.cajon.color-primari.p-4.mb-5(data-aos="fade-left")
       p.mb-0 #[b Acceder al video:] #[em Marketing] sensorial.
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
@@ -212,7 +212,7 @@
           img(src='@/assets/curso/tema4/17.png', alt='')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            p.mb-4 La teoría del color aplicada al punto de venta permite comprender cómo los colores pueden influir en la percepción, las emociones y las decisiones de compra. En marketing y merchandising, el color funciona como un recurso estratégico para destacar productos, organizar espacios, comunicar identidad y generar ambientes específicos dentro del establecimiento.
+            p.mb-4 La teoría del color aplicada al punto de venta permite comprender cómo los colores pueden influir en la percepción, las emociones y las decisiones de compra. En #[em marketing] y #[em merchandising], el color funciona como un recurso estratégico para destacar productos, organizar espacios, comunicar identidad y generar ambientes específicos dentro del establecimiento.
             p.mb-4 El uso adecuado del color puede mejorar la experiencia de compra, orientar la atención hacia zonas o productos específicos y reforzar el mensaje comercial. Según Kotler y Armstrong (2018), los estímulos visuales, entre ellos el color, influyen en la percepción del consumidor dentro del entorno de compra.
             p.mb-0 La clasificación de los colores en el punto de venta puede organizarse según las sensaciones que transmiten, los beneficios comerciales que aportan y sus usos frecuentes en espacios de exhibición.
 

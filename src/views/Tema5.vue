@@ -119,7 +119,7 @@
           .tarjeta.color-a.p-4(titulo="Recursos tecnológicos")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-0 Incluyen sistemas y herramientas que optimizan la gestión comercial, como software de ventas, sistemas de inventario o herramientas de relación con clientes (CRM).
+                p.mb-0 Incluyen sistemas y herramientas que optimizan la gestión comercial, como #[em software] de ventas, sistemas de inventario o herramientas de relación con clientes #[em (CRM)].
           .tarjeta.color-a.p-4(titulo="Recursos audiovisuales")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -259,7 +259,7 @@
 
     p.mb-4(data-aos="fade-left") Estas etapas permiten asegurar que la exhibición no solo se implemente, sino que también se revise y mejore de manera continua. Una exhibición bien planificada debe responder a los objetivos de la organización, al comportamiento del cliente y a las condiciones reales del punto de venta.
     
-    p.mb-4(data-aos="fade-right") Para fortalecer la comprensión sobre la planeación de la exhibición en el punto de venta, se recomienda acceder al podcast Planeación de la exhibición en el punto de venta como estrategia comercial. En este recurso se explica cómo una exhibición bien planificada permite organizar productos, aprovechar el espacio comercial, mejorar la experiencia de compra y apoyar los objetivos de venta.
+    p.mb-4(data-aos="fade-right") Para fortalecer la comprensión sobre la planeación de la exhibición en el punto de venta, se recomienda acceder al #[em podcast] Planeación de la exhibición en el punto de venta como estrategia comercial. En este recurso se explica cómo una exhibición bien planificada permite organizar productos, aprovechar el espacio comercial, mejorar la experiencia de compra y apoyar los objetivos de venta.
     
     p.mb-5(data-aos="fade-left") Durante la escucha del recurso, identifique cómo el análisis del espacio, la organización de productos, la presentación visual, la implementación y la evaluación permiten construir una exhibición más clara, funcional y atractiva para el cliente. También reconozca la importancia de revisar los resultados obtenidos para realizar ajustes y fortalecer la mejora continua en el punto de venta.
 
@@ -271,7 +271,7 @@
             .tarjeta.color-primario.p-4.rounded-0.h-100
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
-                texto="Podcast: planeando la exhibición para vender mejor"
+                texto="<i>Podcast</i>: planeando la exhibición para vender mejor"
                 :audio="require_src('@/assets/actividad/audio/2Podcast_2_CF2-621209_Operaciones_comerciales_multicanal.mp4')"
             ).mb-0
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
