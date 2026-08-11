@@ -465,7 +465,7 @@ export default {
         },
         {
           nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
