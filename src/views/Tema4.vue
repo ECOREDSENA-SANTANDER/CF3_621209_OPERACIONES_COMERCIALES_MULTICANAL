@@ -122,21 +122,21 @@
           img(src='@/assets/curso/tema4/11.svg' alt='')
           .tarjeta.color-b
             .p-4
-              h4.text-center.mt-3 Sensorial visual
+              h4.text-center.mt-3 #[em Marketing] sensorial visual
               p.mb-0.text-center Utiliza colores, iluminación, formas, composición y diseño del espacio para destacar productos y comunicar la identidad del establecimiento.
       .col-md-6.col-lg.mb-lg-0.mb-md-4.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/12.svg' alt='')
           .tarjeta.color-b
             .p-4
-              h4.text-center.mt-3 Sensorial auditivo
+              h4.text-center.mt-3 #[em Marketing] sensorial auditivo
               p.mb-0.text-center Emplea música, sonidos ambientales o mensajes sonoros para crear una atmósfera acorde con el tipo de negocio y el comportamiento esperado del cliente.
       .col-md-6.col-lg.mb-lg-0.mb-md-0.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/13.svg' alt='')
           .tarjeta.color-b
             .p-4
-              h4.text-center.mt-3 Sensorial olfativo
+              h4.text-center.mt-3 #[em Marketing] sensorial olfativo
               p.mb-0.text-center Incorpora aromas agradables o característicos para generar recordación, mejorar el ambiente y reforzar la experiencia de compra.
 
     .row.justify-content-center.mb-lg-5.mb-4.mb-md-5
@@ -145,14 +145,14 @@
           img(src='@/assets/curso/tema4/14.svg' alt='')
           .tarjeta.color-b
             .p-4
-              h4.text-center.mt-3 Sensorial táctil
+              h4.text-center.mt-3 #[em Marketing] sensorial táctil
               p.mb-0.text-center Permite que el cliente interactúe con texturas, materiales, empaques o productos, cuando el tipo de artículo lo permite.
       .col-md-6.col-lg-4.mb-lg-0.mb-md-0.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/15.svg' alt='')
           .tarjeta.color-b
             .p-4
-              h4.text-center.mt-3 Sensorial gustativo
+              h4.text-center.mt-3 #[em Marketing] sensorial gustativo
               p.mb-0.text-center Utiliza degustaciones o pruebas de producto en establecimientos relacionados con alimentos, bebidas u otras categorías que admitan esta experiencia.
     
     p.mb-4(data-aos="fade-right") El #[em marketing] sensorial cumple diferentes funciones dentro del punto de venta. Permite crear ambientes atractivos, fortalecer la identidad del establecimiento, influir en las emociones del cliente, incrementar el tiempo de permanencia y estimular la decisión de compra.

@@ -36,26 +36,25 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        .bg8.p-4.p-lg-5
-          ImagenInfografica.color-primario
-            template(v-slot:imagen)
-              img.img-a.img-t(src='@/assets/curso/tema2/3.jpg', alt='Texto que describa la imagen')
-            .tarjeta.color-secundario.p-4(x="65.8%" y="41%" numero="")
-              h5.mb-3 Zona caliente
-              p.mb-0 Es el área con mayor circulación de clientes. En esta zona se ubican productos estratégicos, promociones o artículos de alta rotación, porque tienen mayor posibilidad de ser identificados durante el recorrido comercial.
-            .tarjeta.color-secundario.p-4(x="48.2%" y="29.8%" numero="")
-              h5.mb-3 Zona fría
-              p.mb-0 Es el espacio con menor circulación o menor atención por parte de los clientes. Para aprovechar esta zona, pueden utilizarse señalización clara, iluminación adecuada o productos de interés que motiven el desplazamiento hacia ese punto.
-            .tarjeta.color-secundario.p-4(x="49.1%" y="54.5%" numero="")
-              h5.mb-3  Zona de impulso
-              p.mb-0 Suele ubicarse cerca de las cajas o puntos de pago. En esta zona se presentan productos de compra rápida, complementaria o no planificada.
-            .tarjeta.color-secundario.p-4(x="17.6%" y="34.3%" numero="")
-              h5.mb-3 Zona promocional
-              p.mb-0 Es el espacio destinado a productos con ofertas, descuentos, lanzamientos o campañas comerciales. Su propósito es destacar una propuesta específica y motivar la acción de compra.
-            .tarjeta.color-secundario.p-4(x="29.5%" y="72.4%" numero="")
-              h5.mb-3 Zona de circulación
-              p.mb-0 Corresponde a los recorridos internos del establecimiento. Su organización debe facilitar el desplazamiento, evitar obstáculos y permitir el acceso a las diferentes secciones del punto de venta.
-              p.mb-0 La exhibición puede adoptar diferentes formas según el tipo de producto, el espacio disponible y la estrategia comercial definida. Entre los principales tipos de exhibición se encuentran la horizontal, vertical, masiva y temática.
+        ImagenInfografica.color-primario
+          template(v-slot:imagen)
+            img.img-a.img-t(src='@/assets/curso/tema2/3.jpg', alt='Texto que describa la imagen')
+          .tarjeta.color-secundario.p-4(x="63%" y="41%" numero="")
+            h5.mb-3 Zona caliente
+            p.mb-0 Es el área con mayor circulación de clientes. En esta zona se ubican productos estratégicos, promociones o artículos de alta rotación, porque tienen mayor posibilidad de ser identificados durante el recorrido comercial.
+          .tarjeta.color-secundario.p-4(x="47%" y="31%" numero="")
+            h5.mb-3 Zona fría
+            p.mb-0 Es el espacio con menor circulación o menor atención por parte de los clientes. Para aprovechar esta zona, pueden utilizarse señalización clara, iluminación adecuada o productos de interés que motiven el desplazamiento hacia ese punto.
+          .tarjeta.color-secundario.p-4(x="47.7%" y="52.7%" numero="")
+            h5.mb-3  Zona de impulso
+            p.mb-0 Suele ubicarse cerca de las cajas o puntos de pago. En esta zona se presentan productos de compra rápida, complementaria o no planificada.
+          .tarjeta.color-secundario.p-4(x="19.1%" y="35%" numero="")
+            h5.mb-3 Zona promocional
+            p.mb-0 Es el espacio destinado a productos con ofertas, descuentos, lanzamientos o campañas comerciales. Su propósito es destacar una propuesta específica y motivar la acción de compra.
+          .tarjeta.color-secundario.p-4(x="30.1%" y="68.35%" numero="")
+            h5.mb-3 Zona de circulación
+            p.mb-0 Corresponde a los recorridos internos del establecimiento. Su organización debe facilitar el desplazamiento, evitar obstáculos y permitir el acceso a las diferentes secciones del punto de venta.
+            p.mb-0 La exhibición puede adoptar diferentes formas según el tipo de producto, el espacio disponible y la estrategia comercial definida. Entre los principales tipos de exhibición se encuentran la horizontal, vertical, masiva y temática.
 
     .tit.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/sub.svg')
@@ -131,6 +130,9 @@
           .row.justify-content-center.align-items-center(titulo="Iluminación dirigida")
             .col-lg-11
               p.mb-0.mx-lg-3 Ayuda a destacar productos, zonas promocionales o espacios específicos dentro del establecimiento.
+          .row.justify-content-center.align-items-center(titulo="Exhibiciones promocionales")
+            .col-lg-11
+              p.mb-0.mx-lg-3 Agrupan productos en espacios especiales para comunicar ofertas, campañas o temporadas comerciales.
           .row.justify-content-center.align-items-center(titulo="Ubicación de productos complementarios")
             .col-lg-11
               p.mb-0.mx-lg-3 Consiste en ubicar juntos productos que pueden utilizarse de manera relacionada, con el fin de facilitar compras adicionales.
@@ -140,9 +142,12 @@
           .row.justify-content-center.align-items-center(titulo="Orden y reposición")
             .col-lg-11
               p.mb-0.mx-lg-3 Permite mantener los productos disponibles, organizados y en condiciones adecuadas para la compra.
-              p.mb-4.mx-lg-3 La exhibición se utiliza en diferentes tipos de establecimientos comerciales, como supermercados, farmacias, tiendas especializadas, grandes superficies, tiendas de tecnología, comercios de moda y canales digitales. Su aplicación permite mejorar la organización del punto de venta, fortalecer las estrategias de #[em marketing] y facilitar el contacto entre el cliente y los productos.
-              p.mb-4.mx-lg-3 Para fortalecer la comprensión sobre los tipos de exhibición comercial, se recomienda acceder al video Tipos de exhibición, en el cual se explican diferentes formas de presentar productos dentro del punto de venta, de acuerdo con el espacio disponible, el mobiliario, la ubicación en góndolas y los objetivos de rotación comercial.
-              p.mb-0.mx-lg-3 Durante la revisión del recurso, identifique cómo la exhibición vertical, horizontal, por bloques, especial, en islas, en ganchos y en zona de pago o #[em check out] permite organizar los productos de manera estratégica. También reconozca la importancia de planear la ubicación de lineales, góndolas, vitrinas, escaparates y muebles comerciales para aprovechar el espacio interno del establecimiento y facilitar la decisión de compra.
+
+    p.mb-4 La exhibición se utiliza en diferentes tipos de establecimientos comerciales, como supermercados, farmacias, tiendas especializadas, grandes superficies, tiendas de tecnología, comercios de moda y canales digitales. Su aplicación permite mejorar la organización del punto de venta, fortalecer las estrategias de #[em marketing] y facilitar el contacto entre el cliente y los productos.
+    
+    p.mb-4 Para fortalecer la comprensión sobre los tipos de exhibición comercial, se recomienda acceder al video Tipos de exhibición, en el cual se explican diferentes formas de presentar productos dentro del punto de venta, de acuerdo con el espacio disponible, el mobiliario, la ubicación en góndolas y los objetivos de rotación comercial.
+    
+    p.mb-5 Durante la revisión del recurso, identifique cómo la exhibición vertical, horizontal, por bloques, especial, en islas, en ganchos y en zona de pago o #[em check out] permite organizar los productos de manera estratégica. También reconozca la importancia de planear la ubicación de lineales, góndolas, vitrinas, escaparates y muebles comerciales para aprovechar el espacio interno del establecimiento y facilitar la decisión de compra.
 
     //.cajon.color-primari.p-4.mb-5(data-aos="fade-left")
       p.mb-0 #[b Acceder al video:] Tipos de exhibición.

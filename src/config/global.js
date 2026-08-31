@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Gestión del punto de venta',
     Description:
-      'El componente formativo Gestión del punto de venta aborda la presentación de productos dentro del establecimiento comercial como estrategia para fortalecer la promoción de ventas. Analiza elementos como el punto de venta, el <em>merchandising</em>, las técnicas de exhibición, el layout y el <em>visual merchandising</em>, con el propósito de mejorar la experiencia del cliente y estimular la decisión de compra.',
+      'El componente formativo Gestión del punto de venta aborda la presentación de productos dentro del establecimiento comercial como estrategia para fortalecer la promoción de ventas. Analiza elementos como el punto de venta, el <em>merchandising</em>, las técnicas de exhibición, el <em>layout</em> y el <em>visual merchandising</em>, con el propósito de mejorar la experiencia del cliente y estimular la decisión de compra.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -410,7 +410,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -425,7 +425,7 @@ export default {
       autores: [
         {
           nombre: 'Mario Alfonso Morales Cabrera',
-          cargo: 'Experto Temático',
+          cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {

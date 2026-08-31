@@ -6,7 +6,6 @@
 
     p.mb-5(data-aos="fade-left") Asimismo, el componente integra herramientas y acciones relacionadas con el #[em layout], los planogramas, la planimetría, el #[em visual merchandising], el vitrinismo, el #[em marketing] sensorial, la teoría del color y la comunicación comercial en el punto de venta. Estos elementos permiten fortalecer la identidad del establecimiento, orientar el recorrido del cliente y apoyar la decisión de compra. Finalmente, se abordan el #[em software] de gestión, los recursos de apoyo, el plan de exhibición y las herramientas de verificación, como medios para organizar, implementar, controlar y mejorar las acciones de exhibición comercial en diferentes contextos empresariales.
     
-
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-11.mb-5
         figure

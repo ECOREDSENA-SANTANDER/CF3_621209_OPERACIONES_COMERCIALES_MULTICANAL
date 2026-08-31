@@ -102,9 +102,9 @@
       h2 1.2 Punto de venta: concepto, tipos y dimensiones
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-6.mb-lg-0.mb-4
+      .col-lg-5.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/8.png' alt='AvatarTop')
-      .col-lg-6
+      .col-lg-7
         p.mb-3 El punto de venta es el espacio físico o digital donde se realiza la interacción comercial entre la empresa y el consumidor. En este lugar se presentan los productos, se ofrece información, se aplican acciones promocionales y se concreta la compra. Por esta razón, su organización tiene impacto directo en la experiencia del cliente y en la efectividad de las estrategias comerciales.
         p.mb-0 Desde la perspectiva del #[em marketing], el punto de venta es un elemento importante del canal comercial, porque permite acercar el producto al consumidor y facilitar el proceso de compra. Una adecuada gestión del punto de venta ayuda a ordenar los productos, mejorar la circulación, comunicar promociones y generar ambientes accesibles para diferentes tipos de clientes.
 
@@ -158,11 +158,6 @@
 
     p.mb-5(data-aos="fade-right") También es importante considerar la accesibilidad del punto de venta. Esto implica contar con pasillos despejados, señalización clara, zonas de circulación seguras y espacios que faciliten el desplazamiento de personas con diferentes necesidades de movilidad. De esta manera, el establecimiento puede ofrecer una experiencia de compra más cómoda, ordenada e incluyente.
     
-
-
-
-
-
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-dos.mb-5
@@ -205,14 +200,14 @@
       h3.mb-0 Dimensiones del punto de venta
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
-      .col-lg-12
+      .col-lg-12.d-none.d-lg-block
         .bg3.p-4
-          ImagenInfografica.color-acento-botones
+          ImagenInfografica.color-primario
             template(v-slot:imagen)
               img.img-a.img-t(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
             .tarjeta.color-secundario.p-4(x="49.75%" y="5.9%" numero="")
               h5.mb-3 Tamaño del local
-              p.mb-0 Define el espacio disponible para ubicar productos, mobiliario, zonas de atención, áreas de pago y espacios de circulación.
+              p.mb-0 Se debe aprovechar de acuerdo con el tipo de establecimiento, el surtido y el flujo de clientes, procurando una distribución funcional que favorezca la operación comercial y la experiencia de compra.
             .tarjeta.color-secundario.p-4(x="56.3%" y="18.9%" numero="")
               h5.mb-3 Distribución del mobiliario
               p.mb-0 Organiza los muebles y elementos de exhibición para mejorar el acceso a los productos y aprovechar el espacio.
@@ -225,7 +220,49 @@
             .tarjeta.color-secundario.p-4(x="54.8%" y="90.4%" numero="")
               h5.mb-3 Accesibilidad
               p.mb-0 Favorece una experiencia de compra incluyente mediante espacios despejados, señalización clara y recorridos seguros.
-    
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12.d-none.d-md-block.d-lg-none
+        .bg3.p-4
+          ImagenInfografica.color-primario
+            template(v-slot:imagen)
+              img.img-a.img-t(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
+            .tarjeta.color-secundario.p-4(x="49.75%" y="5.9%" numero="")
+              h5.mb-3 Tamaño del local
+              p.mb-0 Se debe aprovechar de acuerdo con el tipo de establecimiento, el surtido y el flujo de clientes, procurando una distribución funcional que favorezca la operación comercial y la experiencia de compra.
+            .tarjeta.color-secundario.p-4(x="62%" y="18.9%" numero="")
+              h5.mb-3 Distribución del mobiliario
+              p.mb-0 Organiza los muebles y elementos de exhibición para mejorar el acceso a los productos y aprovechar el espacio.
+            .tarjeta.color-secundario.p-4(x="77.7%" y="42.3%" numero="")
+              h5.mb-3 Ancho de pasillos
+              p.mb-0 Permite facilitar el desplazamiento de las personas y reducir barreras dentro del establecimiento comercial.
+            .tarjeta.color-secundario.p-4(x="40%" y="66.5%" numero="")
+              h5.mb-3 Zonas de circulación 
+              p.mb-0 Orientan el recorrido del cliente y facilitan el acceso a las diferentes secciones del punto de venta.
+            .tarjeta.color-secundario.p-4(x="59%" y="90.4%" numero="")
+              h5.mb-3 Accesibilidad
+              p.mb-0 Favorece una experiencia de compra incluyente mediante espacios despejados, señalización clara y recorridos seguros.
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12.d-block.d-md-none
+        .bg3.p-4
+          ImagenInfografica.color-primario
+            template(v-slot:imagen)
+              img.img-a.img-t(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
+            .tarjeta.color-secundario.p-4(x="49.75%" y="5.9%" numero="")
+              h5.mb-3 Tamaño del local
+              p.mb-0 Se debe aprovechar de acuerdo con el tipo de establecimiento, el surtido y el flujo de clientes, procurando una distribución funcional que favorezca la operación comercial y la experiencia de compra.
+            .tarjeta.color-secundario.p-4(x="62%" y="18.9%" numero="")
+              h5.mb-3 Distribución del mobiliario
+              p.mb-0 Organiza los muebles y elementos de exhibición para mejorar el acceso a los productos y aprovechar el espacio.
+            .tarjeta.color-secundario.p-4(x="77.7%" y="42.3%" numero="")
+              h5.mb-3 Ancho de pasillos
+              p.mb-0 Permite facilitar el desplazamiento de las personas y reducir barreras dentro del establecimiento comercial.
+            .tarjeta.color-secundario.p-4(x="40%" y="66.5%" numero="")
+              h5.mb-3 Zonas de circulación 
+              p.mb-0 Orientan el recorrido del cliente y facilitan el acceso a las diferentes secciones del punto de venta.
+            .tarjeta.color-secundario.p-4(x="59%" y="90.4%" numero="")
+              h5.mb-3 Accesibilidad
+              p.mb-0 Favorece una experiencia de compra incluyente mediante espacios despejados, señalización clara y recorridos seguros.
+
 
     separador
     #t_1_3.titulo-segundo.mb-5
