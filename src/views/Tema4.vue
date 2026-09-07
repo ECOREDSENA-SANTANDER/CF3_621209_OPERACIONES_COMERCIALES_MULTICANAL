@@ -93,7 +93,7 @@
             .tarjeta.bg-white.p-4.p-lg-5.h-100
               TarjetaAudio.color-acento-botones.mb-0(
               texto="<i>Podcast:</i> Vitrinismo hoy: una vitrina que comunica y vende"
-              :audio="require_src('@/assets/actividad/audio/CF3_621209_Operaciones_comerciales_multicanal.mp4')"
+              :audio="require_src('@/assets/actividad/audio/Podcast_1_CF1-621209-Operaciones_comerciales_multicanal.mp3')"
           ).mb-0
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
